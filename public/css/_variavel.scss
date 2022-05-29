@@ -1,0 +1,29 @@
+$white: #ffff;
+$orange: #ffd666;
+$dark-green:#00c7c7;
+$dark-blue:#29b6d1;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    outline: none;
+    list-style: none;
+    border: none;
+    font-family: "Nunito", sans-serif;
+}
+:root {
+    font-size: 62.5%;
+}
+body {
+    height: 100vh;
+    color: $white;
+}
+body,
+input,
+button,
+textarea {
+    font: 400 1.8rem/1 "Nunito", sans-serif;
+}
+
+

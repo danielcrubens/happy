@@ -1,0 +1,31 @@
+#page-landing {
+    background: linear-gradient(329.54deg, $dark-blue 0%, $dark-green 100%) no-repeat;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container {
+    margin: auto;
+    width: 90%;
+}
+.visit {
+	p {
+		height: 16vh;
+	}
+	a {
+		width: 8rem;
+		height: 8rem;
+		background: $orange;
+		border-radius: 3rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
+        transition: all 400ms;
+        &:hover{
+            filter: brightness(.9);
+        }
+	}
+}
