@@ -2,11 +2,12 @@ $white: #ffff;
 $orange: #ffd666;
 $dark-green:#00c7c7;
 $dark-blue:#29b6d1;
+$blue:#15C3D6;
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: none;
+    box-sizing: border-box;
     outline: none;
     list-style: none;
     border: none;

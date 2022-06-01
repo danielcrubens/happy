@@ -52,15 +52,17 @@ h1,
 }
 /* DESKTOP */
 @media (min-width: 760px) {
+	#page-landing {
+		header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+	}
 	#container {
 		padding: 1rem 2rem;
 		background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 37vw, 56rem);
-	}
-	header {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
+	}	
 	.location,
 	h1,
 	.visit p {
