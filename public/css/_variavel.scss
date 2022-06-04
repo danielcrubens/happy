@@ -3,6 +3,9 @@ $orange: #ffd666;
 $dark-green:#00c7c7;
 $dark-blue:#29b6d1;
 $blue:#15C3D6;
+$blue-light:#12AFCB;
+$dark-grey:#4d6f80;
+$light-grey:#5c8599;
 
 * {
     margin: 0;
@@ -18,7 +21,7 @@ $blue:#15C3D6;
 }
 body {
     height: 100vh;
-    color: $white;
+    color: #EBF2F5;
 }
 body,
 input,

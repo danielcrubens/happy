@@ -1,0 +1,30 @@
+aside.sidebar {
+	position: fixed;
+	height: 100%;
+	padding: 3.2rem 2.4rem;
+	background: $blue;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	footer {
+		button {
+			width: 4.8rem;
+			height: 4.8rem;
+			border: none;
+			background: $blue-light;
+			border-radius: 1.6rem;
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			transition: background 0.2s;
+			&:hover {
+				filter: brightness(.9);
+			}
+		}
+	}
+}
+.with-sidebar {
+	padding-left: 110rem;
+}
